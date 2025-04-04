@@ -32,11 +32,11 @@ else:
 
     # Create a chat input field to allow the user to enter a message. This will display
     # automatically at the bottom of the page.
-    # if prompt := st.chat_input("What is up?"):
+    if prompt := st.chat_input("제주도 여행 관련 질문을 입력해 주세요?"):
 
     # 사용자 입력 받기
-    st.write("궁금한 제주도 여행 정보를 입력하세요!")
-    if prompt := st.chat_input("여행 관련 질문을 입력해 주세요:", ""):
+    # st.write("궁금한 제주도 여행 정보를 입력하세요!")
+    # if prompt := st.chat_input("여행 관련 질문을 입력해 주세요:", ""):
 
         # Store and display the current prompt.
         st.session_state.messages.append({"role": "user", "content": prompt})
