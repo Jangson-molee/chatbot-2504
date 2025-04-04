@@ -4,9 +4,9 @@ from openai import OpenAI
 # Show title and description.
 st.title("제주도 여행 정보 챗봇")
 st.write(
-    "제주도 여행 정보를 제공하는 챗봇 서비스입니다.
-    이 앱을 사용하려면 OpenAI API 키가 필요하며,
-    제주도 여행에 대한 유용한 팁과 정보를 원하시면, 언제든지 질문해 주세요!"
+    "제주도 여행 정보를 제공하는 챗봇 서비스입니다."
+    "이 앱을 사용하려면 OpenAI API 키가 필요하며,"
+    "제주도 여행에 대한 유용한 팁과 정보를 원하시면, 언제든지 질문해 주세요!"
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
